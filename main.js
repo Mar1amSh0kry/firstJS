@@ -83,20 +83,263 @@
    
    // console.log(`${a} "" '' \\ ${b} ${c} ${d}`);
 
-   // console.log("video 177777777777777777777777777777");
+   console.log("video 177777777777777777777777777777");
 
 let pageTitle = "Elzero", pageDescription = "Elzero Web School", pageDate = "25/10";
    
 let card = `
 <div class = "card">
    <div class="child">
-      <h3>  ${pageTitle}<\h3>
-      <p class = "desc">${pageDescription}<\p>
+      <h3>  ${pageTitle}</h3>
+      <p class = "desc">${pageDescription}</p>
       <span>${pageDate}<\span>
-   <\div>
-<\div>
+   </div>
+</div>
 `
 document.write(card);
 document.write(card);
 document.write(card);
 document.write(card);
+
+console.log("video 18888888888888888888888888");
+
+console.log(10 + "mai"); // the 10 here is string not num
+console.log(10 - "mai"); // NaN (not a number)
+console.log(typeof NaN);
+
+console.log(2 ** 3); // 2 power to 3 = 8
+
+console.log("video 1999999999999999999999999");
+   /*
+   - + Unary Plus [Return Number If Its Not Number]
+   - - Unary Negation [Return Number If Its Not Number + Negates It]
+   Tests
+   - Normal Number
+   - String Number
+   - String Negative Number
+   - String Text
+   - Float
+   - Hexadecimal Numeral System => 0xFF
+   - null
+   - false
+   - true
+*/
+
+// console.log(+100);
+// console.log(+"100");
+// console.log(+"-100");
+// console.log(+"Osama");
+// console.log(+"15.5");
+// console.log(+0xff);
+// console.log(+null);
+// console.log(+false);
+// console.log(+true);
+
+// console.log(-100);
+// console.log(-"100");
+// console.log(-"-100");
+// console.log(-"Osama");
+// console.log(-"15.5");
+// console.log(-0xff);
+// console.log(-null);
+// console.log(-false);
+// console.log(-true);
+
+// console.log(Number("100"));
+
+console.log("video 20000000000000000000000");
+   // ++ Increment [ Post / Pre ]
+   // -- Decrement [ Post / Pre ]
+
+console.log("22 the challenge");
+
+/*
+   Challenge 1
+*/
+   
+// let a = 10;
+// let b = "20";
+// let c = 80;
+
+//console.log(++a + +b++ + +c++ - +a++); // 11 + 20 + 80 - 11 = 100
+
+   /*
+   [++a] 
+   - Value: 11
+   - Explain: pre Increment
+
+   [+]
+   - Explain: addintion
+
+   [+]
+   - Explain: unary
+
+   [b++]
+   - Value: 20
+   - Explain: post Increment
+
+   [+]
+   - Explain: addintion
+
+   [+]
+   - Explain: unary
+
+   [c++]
+   - Value: 80
+   - Explain: post Increment
+
+   [-]
+   - Explain:  Subtraction
+
+   [+]
+   - Explain: + unary
+
+   [a++]
+   - Value: 11
+   - Explain: post Increment
+   */
+
+   
+//console.log(++a + -b + +c++ - -a++ + +a); // 11 -20 + 80 + 11 + 12 = 94
+
+   /*
+   [++a]   
+   - Value: 11
+   - Explain: pre Increment
+
+   
+   [+]
+   - Explain: addintion
+
+   [-]
+   - Explain: - unary
+
+   [b]
+   - Value: -20
+   - Explain: 
+   
+   [+]
+   - Explain: addintion
+
+   [+]
+   - Explain: + unary
+
+   [c++]   
+   - Value: 80
+   - Explain: post Increment
+
+   [-]
+   - Explain:  Subtraction
+
+   
+   [-]
+   - Explain: - unary
+
+   [a++]   
+   - Value: 11
+   - Explain: pre Increment
+
+   [+]
+   - Explain: addintion
+
+   [+]
+   - Explain: + unary
+
+   [a]
+   - Value: 12
+   - Explain: 
+   */
+
+
+
+//console.log(--c + +b + --a * +b++ - +b * a + --a - +true); // 79 + 20 + 180 - 189 + 8 - 1 = 27
+
+/* 
+[--c]
+- Value: 79
+- Explain: pre decrement
+
+
+[+]
+- Explain: addintion
+
+[+]
+- Explain: + unary
+
+[b]
+- Value: 20
+- Explain: 
+
+[+]
+- Explain: addintion
+
+[--a]
+- Value: 9
+- Explain: pre decrement
+
+[*]
+- Explain : Multiplication
+
+[+]
+- Explain: + unary
+
+[b++]   
+- Value: 20
+- Explain: post Increment
+
+[-]
+- Explain:  Subtraction
+
+[+]
+- Explain: + unary
+
+[b]
+- Value: 21
+- Explain: 
+
+[*]
+- Explain : Multiplication
+
+[a]
+- Value: 9
+- Explain: 
+
+[+]
+- Explain: addintion
+
+
+[--a]
+- Value: 8
+- Explain: pre decrement
+
+[-]
+- Explain:  Subtraction
+
+[+]
+- Explain: + unary
+
+[true]
+- value : 1
+
+*/
+
+
+/*
+Challenge 2
+*/
+
+// let d = "-100";
+// let e = "20";
+// let f = 30;
+// let g = true;
+
+// Only Use Variables Value
+// Do Not Use Variable Twice
+
+//console.log(-d*e); // 2000
+//console.log(+g + ++g + g* +e +f + -d); // 173
+
+
+
+
+
