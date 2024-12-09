@@ -339,7 +339,57 @@ Challenge 2
 //console.log(-d*e); // 2000
 //console.log(+g + ++g + g* +e +f + -d); // 173
 
+console.log("23 the third week :)");
 
+console.log(10_00_0);
+console.log(1e4);
+console.log(10 ** 4);
+console.log(10000.000);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
 
+console.log("video 24444444444444444444444");
+console.log((10).toString());
+console.log(10..toString());
+console.log(10.29874.toFixed(2));
+console.log(parseInt("29"));
+console.log(parseFloat("120.54"));
+console.log(Number.isInteger("234"));
+console.log(Number.isNaN(345));
 
+console.log("video 255555555555555555555");
+
+console.log(Math.round(10.3))
+console.log(Math.ceil(10.3))
+console.log(Math.floor(10.3))
+console.log(Math.min(1,5,6,4,8,-9))
+console.log(Math.max(1,5,6,4,8,-9))
+console.log(Math.pow(3,2))
+console.log(Math.random());
+console.log(Math.trunc(1.94));
+
+console.log("video 26666666666666666666666");
+/*
+Number Challenge
+*/
+
+let a = 100;
+let c = 1e2;//100
+let b = 2_00.5;//200.5
+let d = 2.4;
+// Find Smallest Number In All Variables And Return Integer
+console.log(Math.trunc(d));
+
+// Use Variables a + d One Time To Get The Needed Output
+console.log(Math.pow(a,Math.trunc(d))); // 10000
+
+// Get Integer "2" From d Variable With 4 Methods
+console.log(Math.round(d));
+console.log(Math.trunc(d));
+console.log(Math.floor(d));
+console.log(Math.ceil(Math.floor(d)));
+
+// Use Variables b + d To Get This Valus
+console.log(); // 66.67 => String
+console.log(); // 67 => Number
 
