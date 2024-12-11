@@ -387,9 +387,183 @@ console.log(Math.pow(a,Math.trunc(d))); // 10000
 console.log(Math.round(d));
 console.log(Math.trunc(d));
 console.log(Math.floor(d));
-console.log(Math.ceil(Math.floor(d)));
+console.log(d.toFixed(0));
 
 // Use Variables b + d To Get This Valus
 console.log(); // 66.67 => String
-console.log(); // 67 => Number
+Math.trunc(b);//=50
+b /= 4;
 
+Math.trunc(d);//=2
+d *= 8 +1;//=16
+console.log(b+d); // 67 => Number
+
+console.log("video 277777777777777777777777777");
+
+let name = " Ali   ";
+console.log(name[1]);
+console.log(name.charAt(1));
+console.log(name.length)
+console.log(name.trim())
+console.log(name.toUpperCase());
+console.log(name.toLowerCase())
+console.log(name.trim().charAt(0).toUpperCase())
+
+console.log("video 2888888888888888888888");
+
+let fall_name = "Elzero web school";
+
+console.log(fall_name.indexOf("o",8));
+console.log(fall_name.lastIndexOf("a"));
+console.log(fall_name.slice(-5,-3));
+console.log(fall_name.repeat(3));
+console.log(fall_name.split());
+console.log(fall_name.split(" "));
+console.log(fall_name.split("", 6));
+
+console.log("video 29999999999999999999");
+
+console.log(fall_name.substring(2, 8));
+console.log(fall_name.substring(-2, 8));
+
+console.log(fall_name.substr());
+console.log(fall_name.substr(20));
+
+console.log(fall_name.includes("s", 4));
+
+console.log(fall_name.startsWith("w", 7));
+
+console.log(fall_name.endsWith("o", 6));
+
+
+console.log("video 3000000000000000000");
+
+/*
+String Challenge
+All Solutions Must Be In One Chain
+You Can Use Concatenate
+*/
+
+let aa = "Elzero Web School";
+
+// Include This Method In Your Solution [slice, charAt]
+console.log(aa.charAt(2).toUpperCase() + aa.slice(3,6)); // Zero
+
+// 8 H
+console.log(aa.charAt(13).toUpperCase().repeat(8) ); // HHHHHHHH
+
+// Return Array
+console.log(aa.split(" ",1)); // ["Elzero"]
+
+// Use Only "substr" Method + Template Literals In Your Solution
+console.log(aa.substr(0,6)+" "+aa.substr(11)); // Elzero School
+
+// Solution Must Be Dynamic Because String May Changes
+console.log(aa.charAt(0).toLowerCase()+aa.substring(1,aa.length-1).toUpperCase()+aa.charAt(aa.length-1).toLowerCase()); // eLZERO WEB SCHOOl
+
+console.log("video 31111111111111111111111"+"week 5  :)))))");
+
+console.log(10 == "10");
+console.log(10 != "10");
+console.log("ahmed" === "omar");
+console.log("video 322222222222222222");
+console.log(true);
+console.log(!true);
+console.log(10 == "10" && 10 >= 5);
+console.log("video 33333333333333333333333333"+"&"+"34444444444444");
+let price = 100;
+let discount = true;
+let discountAmount = 30;
+let score = 4;
+let country = "Eygpt", state = "student";
+if (discount != 1) {
+   price -= discountAmount;
+}
+
+else if (score >= 2 && score <= 4)
+{
+   price -= 35;
+}
+
+else if (country=="Eygpt")
+{
+   if (state == "student")
+      price -= 60;
+
+   else
+      price -= 35;
+}
+console.log(price);
+console.log("video 3555555555555555555555");
+let theName = "ahmed", thegender = "male", theAge = 24;
+console.log(thegender === "male" ? "mr" : "mrs");
+console.log(`hello ${thegender === "male" ? "mr" : "mrs"} ${theName}`);
+theAge < 20
+   ? console.log(20)
+   : theAge > 20 && theAge <= 60
+      ? console.log("20 to 60")
+      : theAge > 60
+         ? console.log("upper 60")
+         : console.log("unknown");
+console.log("video 366666666666666666666666666666");
+let prices =null;
+console.log(`the price = ${prices ||200}`);
+console.log(`the price = ${prices ?? 200}`);
+
+
+
+
+/*
+If Condition Challenge
+*/
+
+let a_if = 10;
+
+// if (a_if < 10) {
+//    console.log(10);
+// }
+
+// else if (a_if >= 10 && a_if <= 40) {
+//    console.log("10 To 40");
+// }
+
+// else if (a_if > 40) {
+//    console.log("> 40");
+// }
+
+// else {
+//    console.log("Unknown");
+// }
+
+a_if < 10 ?
+   console.log(10)
+   : a_if >= 10 && a_if <= 40 ?
+      console.log("10 To 40")
+      : a_if > 40 ?
+   console.log("> 40")
+   :console.log("Unknown");
+         
+// Write Previous Condition With Ternary If Syntax
+
+let st = "Elzero Web School";
+
+if ((st.length*2).toString() === "34") {
+   console.log("Good");
+}
+
+// W Position May Change
+if ("w" === "w") {
+   console.log("GoodJob");
+}
+
+if (st.length !== "string") {
+   console.log("GoodJob");
+}
+
+if (st.length === "number") {
+   console.log("GoodJob");
+}
+
+if ("ElzeroElzero" === "ElzeroElzero") {
+   console.log("GoodJob");
+}
