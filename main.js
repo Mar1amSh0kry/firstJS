@@ -549,12 +549,12 @@ a_if < 10 ?
 let st = "Elzero Web School";
 
 if ((st.length*2).toString() === "34") {
-   console.log("Good");
+   console.log("GoodJob");
 }
 
 // W Position May Change
 if ("w" === "w") {
-   console.log("GoodJob");
+   console.log("Good");
 }
 
 if (st.length !== "string") {
@@ -566,7 +566,7 @@ if (st.length === "number") {
 }
 
 if ("ElzeroElzero" === "ElzeroElzero") {
-   console.log("GoodJob");
+   console.log("Good");
 }
 
 console.log("video 38888888888888888888888888");
