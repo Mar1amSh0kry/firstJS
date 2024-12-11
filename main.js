@@ -511,6 +511,7 @@ console.log(`the price = ${prices ||200}`);
 console.log(`the price = ${prices ?? 200}`);
 
 
+console.log("video 377777777777777777777777777");
 
 
 /*
@@ -567,3 +568,122 @@ if (st.length === "number") {
 if ("ElzeroElzero" === "ElzeroElzero") {
    console.log("GoodJob");
 }
+
+console.log("video 38888888888888888888888888");
+
+let day = 0;
+switch (day) {
+   case 0:
+      console.log("saturday");
+      break;
+   case 1:
+   case 2: 
+      console.log("sunday");
+
+   default: console.log("where is the number!!!");
+      break;
+}
+
+console.log("video 3999999999999999999999");
+
+
+   /*
+   Switch Challenge
+   */
+
+   let job = "Manager";
+   let salary = 0;
+   
+switch (job) {
+   case "Manager":
+      salary = 8000;
+      break;
+
+   case "IT":
+   case "Support":
+      salary = 6000;
+      break;
+
+   case "Developer":
+   case "Designer":
+      salary = 4000;   
+      break;
+   
+   
+   default:
+      salary = 4000;
+      break;
+}
+
+   // if (job === "Manager") {
+   // salary = 8000;
+   // } else if (job === "IT" || job === "Support") {
+   // salary = 6000;
+   // } else if (job === "Developer" || job === "Designer") {
+   // salary = 7000;
+   // } else {
+   // salary = 4000;
+   // }
+
+   /*
+   If Challenge
+   */
+
+let holidays = 0;
+let money = 0;
+
+if (holidays==0) {
+   money = 5000;
+   console.log(`My Money is ${money}`);
+}
+
+else if (holidays == 1 || holidays == 2) {
+   money = 3000;
+   console.log(`My Money is ${money}`);
+}
+
+else if (holidays==3) {
+   money = 2000;
+   console.log(`My Money is ${money}`);
+}
+
+else if (holidays==4) {
+   money = 1000;
+   console.log(`My Money is ${money}`);
+}
+
+else if (holidays==5) {
+   money = 0;
+   console.log(`My Money is ${money}`);
+}
+
+else {
+   money = 0;
+   console.log(`My Money is ${money}`);
+}
+// switch (holidays) {
+//    case 0:
+//       money = 5000;
+//       console.log(`My Money is ${money}`);
+//       break;
+//    case 1:
+//    case 2:
+//       money = 3000;
+//       console.log(`My Money is ${money}`);
+//       break;
+//    case 3:
+//       money = 2000;
+//       console.log(`My Money is ${money}`);
+//       break;
+//    case 4:
+//       money = 1000;
+//       console.log(`My Money is ${money}`);
+//       break;
+//    case 5:
+//       money = 0;
+//       console.log(`My Money is ${money}`);
+//       break;
+//    default:
+//       money = 0;
+//       console.log(`My Money is ${money}`);
+// }
